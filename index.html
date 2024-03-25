@@ -7,21 +7,21 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <title>Vue-Hello</title>
 </head>
-<body :class = "bgCustom">
-<div id="app">
+<body >
+<div id="app" :class = "bgCustom">
   <h1 class="title" :class = "textCenter">{{ message }}</h1>  
   <div class="container">
     <div class="row">
         <div class="col-4">
             <figure>
-                <img :src="genova" alt="">
+                <img :src="genova" alt="Foto di Genova panoramica">
                 <figcaption :class="fontSize">  Questa é la citta' in cui vivo ! Bella vero?  </figcaption>
                 <p :class="fontSize"> Ore per visitare : {{ getRandom() }}</p>
             </figure>
         </div>
         <div class="col-4">
             <figure>
-                <img :src="india" alt="">
+                <img :src="india" alt="Foto di Ashram Indiani">
                 <figcaption :class="fontSize"> Qualcuno ha detto india?? Qua é dove mi piacerebbe vivere per un periodo della mia vita!! </figcaption>
                 <p :class="fontSize"> Ore per visitare : {{ getRandom() }}</p>
             </figure>
@@ -29,7 +29,7 @@
         </div>
         <div class="col-4">
             <figure>
-                <img :src="sriLanka" alt="">
+                <img :src="sriLanka" alt="Foto dello Sri Lanka panoramica">
                 <figcaption :class="fontSize"> Sri Lanka??? Da visitare !!  </figcaption>
                 <p :class="fontSize"> Ore per visitare : {{ getRandom() }}</p>
             </figure>

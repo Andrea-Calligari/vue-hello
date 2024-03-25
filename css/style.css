@@ -43,6 +43,9 @@ img{
     font-size: 24px;
 }
 .bg-custom{
-    background: rgb(218,62,62);
-    background: linear-gradient(90deg, rgba(218,62,62,1) 13%, rgba(255,176,52,1) 94%);
+    /* background-color: rgb(218,62,62); */
+    /* background: linear-gradient(90deg, rgba(218,62,62,1) 13%, rgba(255,176,52,1) 94%); */
+    
+    
+    /* QUA NON CAPISCO PERCHE' NON MI ASSEGNA LA CLASSE CON IL BACKGROUND */
 }
